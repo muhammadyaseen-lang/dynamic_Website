@@ -6,6 +6,7 @@
     <form action="convert" method="post">
         <input type="number" name="celsius" placeholder="Celsius" required />
         <button type="submit">Convert</button>
+        <button type="hello">Convert</button>
     </form>
 </body>
 </html>

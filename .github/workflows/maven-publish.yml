@@ -32,3 +32,9 @@ jobs:
         run: |
           docker cp output/TemperatureApp.war tomcat_server:/usr/local/tomcat/webapps/TemperatureApp.war
           docker restart tomcat_server
+
+
+      - name: Deploy WAR to Docker Tomcat
+        run: |
+          docker cp output/TemperatureApp.war tomcat_server:/usr/local/tomcat/webapps/TemperatureApp.war
+          docker restart tomcat_server
